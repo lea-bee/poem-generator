@@ -4,41 +4,51 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
-    <title>Poem</title>
+    <title>Poem Generator!</title>
   </head>
   <body>
-    <header>
-      <h1>Welcome to poem generator!</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>AI Poem Generator</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        La tombe dit à la rose
-        <br />
-        Des pleurs dont l'aube t'arrose
-      </div>
-    </main>
-
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="prompt"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          La tombe dit à la rose
+          <br />
+          Des pleurs dont l'aube t'arrose
+        </div>
+      </main>
+    </div>
     <footer>
       This AI project was coded by
-      <a href="https://github.com/lea-bee" target="_blank">Leah Twigg</a> and is
-      open-sourced on
-      <a href="https://github.com/lea-bee/poem-generator" target="_blank"
-        >Github</a
+      <strong
+        ><a href="https://github.com/lea-bee" target="_blank"
+          >Leah Twigg</a
+        ></strong
+      >
+      and is open-sourced on
+      <strong
+        ><a href="https://github.com/lea-bee/poem-generator" target="_blank"
+          >Github</a
+        ></strong
       >
       and is hosted on
-      <a href="https://poem-generator-phi.vercel.app/" target="_blank"
-        >Vercel.</a
+      <strong
+        ><a href="https://poem-generator-phi.vercel.app/" target="_blank"
+          >Vercel.</a
+        ></strong
       >
     </footer>
 
